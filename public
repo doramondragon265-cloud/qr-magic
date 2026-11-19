@@ -1,1 +1,19 @@
 public/index.html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <title>QR Magic — Create private QR codes</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/"><span class="brand-mark">⌗</span> QR Magic</a><span class="top-note">Private QR generator & scanner</span></header>
+  <main class="container">
+    <section class="hero">
+      <div class="eyebrow">ONE LINK. MANY POSSIBILITIES.</div>
+      <h1>Your information,<br><span>one scan away.</span></h1>
+      <p>Turn images, phone numbers, documents and text into QR codes you can scan anywhere.</p>
+    </section>
